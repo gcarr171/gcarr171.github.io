@@ -1,0 +1,124 @@
+ol {list-style-type:none;
+margin: 0;
+padding:0;}
+
+p {font-family: "space grotesk", monospace;
+font-size:1.1em;}
+
+h1 {font-family: "space grotesk", monospace;
+font-size:3em;}
+
+h2 {font-family: "space grotesk", monospace;
+font-size:2em;}
+
+li {font-family: "space grotesk", monospace;}
+
+a {color: #0d94df;
+    font-style:oblique;
+text-decoration:none;
+cursor:cell;}
+
+a:hover {color: #b0ba19;
+    font-style:normal;}
+
+a:visited{color:#bcc350;}
+
+table{
+   background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+th {font-family: "space grotesk", monospace; 
+    background-color:#b1e3ff;
+padding:7px;
+    border-bottom:solid;
+    border-width:1px;
+}
+
+tr {
+    border-bottom:solid;
+border-width:1px;
+border-color:#000000;}
+
+tr:nth-child(even){background-color: #eff9ff;}
+
+td {font-family: "space grotesk", monospace; 
+    padding-right:7px;
+padding-top:10px;
+padding-left:10px;
+padding-bottom:10px;}
+
+tr:hover {color:#b0ba19;}
+
+img {max-width: 100%;
+position: relative;}
+
+.links {
+    text-decoration: none;
+    font-style:oblique;
+    font-size:1.1em;
+border-bottom:solid;
+border-width: .7px;
+display: block;
+  width: 92%;
+padding:5px;
+    cursor:cell;
+}
+
+.title {font-style: italic;
+text-align: right;
+font-size: 1.5em;
+margin:5px;
+list-style-type: none;}
+
+.subtitle {text-align:right;
+font-size:85%;
+margin:5px;
+list-style-type: none;
+padding-bottom:2%;}
+
+.captions {margin-top:17%;}
+
+.set-pic {padding-top:5%;
+padding-bottom:2%;}
+
+.title-gradient {background: radial-gradient(#ffffff, #d2e438, #ffffff, #b1e3ff, #d2e438,#ffffff, #b1e3ff);
+height:900px;
+margin:0;
+padding:0;}
+
+.title-text {padding-top:10%;
+margin:0;}
+
+#title-page {
+    text-align:center;
+    font-size: 2em;
+}
+
+#container {
+    display: flex;
+cursor:crosshair;}
+
+#sidenav {
+    width: 22%;
+    height:100%;
+    padding: 1.75%;
+    margin: 1%;
+    cursor:crosshair;
+    position:fixed;
+    background: url("https://images.unsplash.com/photo-1776278515779-ced7af4425b7?q=80&w=1015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+}
+
+#main {
+    width: 75%;
+    padding-left: 33%;
+    padding-right: 10%;
+    padding-top:5%;
+cursor:crosshair;}
+
+#footer {
+    padding: 5px;
+    font-style: oblique;
+    font-size:1em;
+    text-align: right;
+padding-left: 20px;}
